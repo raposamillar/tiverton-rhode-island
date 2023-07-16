@@ -1,2 +1,1 @@
-# fe-scrim-july-16
-Solo Project #1
+# Tiverton, Rhode Island, U.S.A.
