@@ -6,7 +6,7 @@ body {
 
 .heading {
   font-family: 'Seaweed Script', cursive, serif;
-  font-size: 50px;
+  font-size: 40px;
   margin: 0;
   padding: 0;
 }
@@ -15,7 +15,7 @@ body {
   color: #43464B;
   font-family: font-family, 'Open Sans', sans-serif;
   font-style: italic;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .header {
@@ -32,19 +32,24 @@ body {
   justify-content: space-evenly;
 } 
 
-.hero {
+.activities {
   display: flex;
   flex-direction: row;
+  flex: 1;
+  min-width: 200px;
   justify-content: center;
   text-align: center;
+  width: 100%;
+  background-color: #DCDED9;
 }
 
-.activities {
+.to-do {
   margin: 20px;
   padding: 20px;
+  width: 100%;
 }
 
-.activities img {
+.to-do img {
   margin: 0;
   padding: 0;
   height: 200px;
@@ -53,8 +58,54 @@ body {
   opacity: 1;
 }
 
-.activities img:hover {
+.to-do img:hover {
   opacity: .5;
+}
+
+.your-guide {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  background-color: #89939C;
+}
+
+.guide-photo img {
+  height: 300px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px dotted #222222;
+  opacity: 1;
+  margin: 10px;
+  padding: 10px;
+}
+
+.guide-photo img:hover {
+  opacity: .5;
+}
+
+.guide-text {
+  margin: 10px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.greg {
+  font-family:'MedievalSharp', cursive;
+  font-style: italic;
+  font-weight: bold;
+  color: #BE5003;
+}
+
+.tour {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.exclaim {
+  font-style: italic;
 }
 
 footer {
