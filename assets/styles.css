@@ -1,0 +1,64 @@
+body {
+  color: #222222;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-family: 'Seaweed Script', cursive, serif;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.subheading {
+  color: #43464B;
+  font-family: font-family, 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.header {
+  display: block;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  padding: 5px;
+  height: 95%;
+  width: 99%;
+  background-image: url("images/tiverton-marina.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: space-evenly;
+} 
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.activities {
+  margin: 20px;
+  padding: 20px;
+}
+
+.activities img {
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.activities img:hover {
+  opacity: .5;
+}
+
+footer {
+  text-align: end;
+  margin: 20px;
+}
+
