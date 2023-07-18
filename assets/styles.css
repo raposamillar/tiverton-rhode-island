@@ -13,9 +13,11 @@ body {
 
 .subheading {
   color: #43464B;
-  font-family: font-family, 'Open Sans', sans-serif;
+  font-family: 'Comic Neue', cursive;
+  font-size: 18px;
   font-style: italic;
-  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .header {
@@ -32,7 +34,16 @@ body {
   justify-content: space-evenly;
 } 
 
-.activities {
+#top {
+  display: flex;
+  flex-direction: row;
+  background-color: #DCDED9;
+  justify-content: center;
+  font-family: 'Seaweed Script', cursive, serif;
+  font-size: 25px
+}
+
+.to-do-container {
   display: flex;
   flex-direction: row;
   flex: 1;
@@ -50,8 +61,6 @@ body {
 }
 
 .to-do img {
-  margin: 0;
-  padding: 0;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -66,10 +75,18 @@ body {
   display: flex;
   flex-direction: row;
   flex: 1;
-  margin: 0;
+  margin: 35px auto 0 auto;
   padding: 0;
   justify-content: center;
   background-color: #89939C;
+  border-bottom: 8px solid #880808;
+  width: 600px;
+  align-items: center;
+}
+
+.your-guide h3 {
+  font-family: 'Seaweed Script', cursive, serif;
+  font-size: 50px
 }
 
 .guide-photo img {
@@ -78,8 +95,7 @@ body {
   border-radius: 50%;
   border: 5px dotted #222222;
   opacity: 1;
-  margin: 10px;
-  padding: 10px;
+  background-color: #DCDED9;
 }
 
 .guide-photo img:hover {
@@ -87,16 +103,19 @@ body {
 }
 
 .guide-text {
-  margin: 10px;
-  padding: 20px;
+  margin: 0 10px 10px 0;
+  padding: 3px;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
+
 .greg {
-  font-family:'MedievalSharp', cursive;
+  font-family: 'Creepster', cursive, serif;
+  font-size: 30px;
   font-style: italic;
   font-weight: bold;
-  color: #BE5003;
+  color: #880808;
 }
 
 .tour {
