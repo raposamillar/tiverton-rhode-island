@@ -2,13 +2,23 @@ body {
   color: #222222;
   margin: 0;
   padding: 0;
+  border-radius: 8px;
 }
 
-.heading {
+.heading h1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   font-family: 'Seaweed Script', cursive, serif;
   font-size: 40px;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:#DCDED9;
+  box-sizing: border-box;
+  width: 600px;
+  border-radius: 8px;
+
+  
 }
 
 .subheading {
@@ -82,6 +92,7 @@ body {
   border-bottom: 8px solid #880808;
   width: 600px;
   align-items: center;
+  border-radius: 8px;
 }
 
 .your-guide h3 {
